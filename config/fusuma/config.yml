@@ -1,0 +1,19 @@
+plugin:
+  inputs:
+    libinput_command_input:
+      enable-tap: true
+      verbose: true
+hold:
+  3:
+     command: "press-or-release-button1.sh"
+  4:
+     command: "press-or-release-button1.sh"
+tap:
+  4:
+     command: "press-or-release-button1.sh"
+swipe:
+  4:
+    left: 
+      workspace: 'next'
+    right: 
+      workspace: 'prev'
