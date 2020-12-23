@@ -15,4 +15,19 @@ name='increase brightness'
 binding='<Super>F8'
 command='adjust-brightness.py -0.05'
 name='decrease brightness'
+
+[custom3]
+binding='<Super>F4'
+command='set-xrandr.sh'
+name='reset screen settings'
+
+[custom4]
+binding='<Super>F3'
+command='set-xrandr-2.sh'
+name='reset screen settings 2'
+
+[custom5]
+binding='<Super>F2'
+command='set-xrandr-3.sh'
+name='reset screen settings 3'
 EOF
